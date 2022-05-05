@@ -1,0 +1,183 @@
+#title {
+    background-color: #923030;
+    color: white;
+    max-height: 700px;
+}
+
+.container-fluid {
+    padding-top: 75px;
+    padding-right: 119px;
+    padding-left: 119px;
+    padding-bottom: 75px;
+
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    size: 3.5rem;
+    line-height: 1.5;
+    color: #fff;
+    
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+/* Navigation Bar  */
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Title image  */
+
+.title-img {
+    max-width: 85%;
+    /* width: 70%; */
+
+}
+
+/* Order Buttons */
+
+.order-btn {
+    margin: 5% 3% 5% 0;
+}
+
+
+/* special-dish Section  */
+
+#special-dish {
+    text-align: center;
+    background-color: #923030;
+    color: rgb(0, 0, 0);
+}
+
+.carousel-item {
+    padding: 7% 15%;
+    color: #fff;
+}
+
+.special-dish-img {
+    width: 30%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+ /* ---About-- */
+
+#about{
+    padding: 5% 10% 5%;
+    background-color: #fff;
+    position: relative; 
+}
+#about h1{
+    text-align: center;
+    padding-bottom: 30px;
+    color: #3b3b3b;
+}
+.feature-box {
+    text-align: center;
+    padding: 2%;
+}
+
+#about i {
+    color: #c44747;
+    margin-bottom: 1rem;
+}
+
+#about i:hover{
+    color: #923030;
+}
+
+#about p {
+    color: #8f8f8f;
+}
+
+/* Testimonial Section  */
+
+#testimonials {
+    text-align: center;
+    background-color: #923030;
+    color: #fff;
+}
+
+.carousel-item {
+    padding: 5% 15%;
+}
+
+.testimonial-img {
+    width: 30%;
+    border-radius:50% ;
+    margin: 20px;
+}
+
+#testi-h{
+    padding-top: 30px;
+}
+
+/* Services Section  */
+
+#services {
+    padding: 100px;
+    text-align: center;
+    /* background-color: #923030; */
+    background-color: #fff;
+    
+}
+#services h1{
+    color: #3b3b3b;
+    padding-bottom: 30px;
+}
+#services i{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: #c44747;
+}
+
+.services-col {
+    padding: 3% 2%;
+    
+}
+
+/* Footer  */
+
+#footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 5%;
+}
+
+.ficon {
+    margin: 12px;
+    size: 3.9rem;
+}
+
+@media (max-width:991px) {
+    #title{
+        text-align: center;
+        max-height: fit-content;
+    }
+    .title-img{
+        width: 48%;
+        position:static;
+        transform: rotate(0);
+    }
+}
